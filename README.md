@@ -1,2 +1,2 @@
-# ansys 
+# Ansys 
 Deven Bibikar
