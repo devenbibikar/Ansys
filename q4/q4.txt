@@ -1,3 +1,13 @@
 4) If you were assigned to design a graphical user interface for an application, how would you design it and implement it?
 
+Step 1: I would first figure out what kind of graphical product my client wants. I'd start by asking questions about visually how they want it to look, functionally what they want the UI to achieve, and if the client already has a backend for the interface, if there's a specific language or set of tools they want me to work with. If I'm in a team, I'd touch base with my teammates and exchange ideas on how to implement a solution and divide work.
 
+Step 2: Once I have this information, I should have gained a clear idea of what I'm trying to create. I'd first consider whether there are any specific packages or frameworks that would expedite my coding process. A lot of packages have terms of service listing what use cases are allowed, so before I commit to using any, I'd check that. UI is nice because I can visually see a lot of my product, but I would also look into a testing methods that might work well with my respective language to ensure my created code is reliable.
+
+Step 3: With this information, I'd draw out a loose schematic for how I could implement this, what kinds of algorithms I'd need, what kinds of data I might be working, and what kind of data structures I might need. This would enable me to get a high-level overview of what my interface might look like and how its constitutient components might look like.  
+
+Step 4: Once I know what tools I might need and have a clear picture of what I'm implementing, I'll import those tools and set up my programming environment to develop the UI. For this, I'll create a git repository and some initial files, such as main.cpp, README, and any other respective frameworks. I'd open a new branch and write each iteration on a new branch separated from main. Each time I want to implement a new, working feature I'd submit a pull request and either wait for it to be approved (if I'm working in a team) or approve it myself. 
+
+Step 5: I'd repeat Step 4, creating a branch whenever I make a new feature to make sure any changes I make don't affect the working main branch. This process would continue until the end of the software development cycle, when my product is well-tested and reliably ready to use.
+
+General Note: If this is a supervised process and I have a mentor or manager, I'd keep them in the loop with my work, sending emails when necessary and keeping myself availabile for questions. 
