@@ -1,0 +1,102 @@
+1) Please list any five data structures in Python and C++ and give an example for the syntax? Please provide brief description wherever necessary.
+
+(a) List (creating, adding, removing)
+
+Python:
+
+new_list = [] #Create the list
+
+#or via numpy
+import numpy as np
+new_np_list = np.array([])
+
+C++:
+//Vector emulates the behavior of a Python better than C++ list
+#include <vector>
+using namespace std;
+
+int main {
+	vector<int> new_list; //define new_list of type int
+
+} 
+
+Note: C++ vector requires the same type for each item, Python does not.
+Summary: Lists are a mutable collection of items. The collection can increase or decrease in size. 
+
+(b) Stacks
+
+Python:
+
+#Lists can also operate as stacks! 
+new_stack = []
+
+C++:
+#include <stack>
+using namespace std;
+
+int main {
+	stack<int> new_stack; //define new_stack of type int
+}
+
+Note: C++ stack requires the same type for each item, Python does not.
+Summary: stacks are a LIFO structure, meaning that the latest added item will also be the next item to remove. 
+
+(c) Undirected Finite Graphs (can be represented via Adjacency matrices/2D Array)
+
+Python:
+n = 2
+adj_matrix = [[0]*n for i in range(n)]
+
+#in numpy:
+import numpy as np
+np.zeros((n,n))
+
+C++:
+using namespace std;
+
+int main {
+	int n = 2; 
+	int adj_matrix[n][n] = {0};
+}
+
+Note: This creates a finite graph for vertices labelled 0 through n - 1. 
+To find if a vertex is connected to another, check the matrix position of row, col, where row and col refer to node 1 & node 2. 
+If the value in that index is 1, then the two vertices are connected.
+An adjacency matrix is also a 2D array. 
+
+(d) Dictionaries/Map 
+
+Python:
+my_dictionary = {"key" : "value, "test" : 5}
+
+C++:
+using namespace std;
+#include <map>
+
+int main {
+	map<int, int> test_map;
+}
+
+Note: C++ map requires the same type for each key and the same type for each value. 
+Python dictionaries do not.
+Summary: dictionaries are similar to lists, but for each item they store a key-value pair. 
+
+(e) Sets
+
+Python: 
+my_set = {0, 1, 2, 3}
+
+C++: 
+using namespace std;
+#include <set>
+
+int main {
+	set<int> test_set;
+}
+
+Note: C++ set requires the same type for each item, Python dictionaries do not.
+Summary: Sets are similar to lists except that they have distinct items.
+
+
+
+

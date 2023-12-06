@@ -1,0 +1,12 @@
+3) Create a github account and create a dummy pull request. Please list the steps performed to create a pull request.
+
+1. Go to github.com & sign in 
+2. Go to repository
+3. Click 'Pull Requests' tab on the top left
+4. Click on blue tab with 'new pull request' on the top right
+4.5. If you already have a branch you want to merge, click 'Compare & Pull Request'
+5. Once on the comparing changes page, check if you're able to merge. 
+5.5. If you cannot auto merge, resolve the conflicts in the respective files
+6. Click 'Create pull request'
+7. Write a title and description
+8. Click create pull request.

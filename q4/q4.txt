@@ -1,0 +1,3 @@
+4) If you were assigned to design a graphical user interface for an application, how would you design it and implement it?
+
+
